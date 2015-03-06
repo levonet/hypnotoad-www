@@ -1,0 +1,32 @@
+{
+  "name": "hypnotoad-www",
+  "description": "Simple BEM project",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/levonet/hypnotoad-www.git"
+  },
+  "author": {
+    "name": "Pavel Bashinsky",
+    "url": "https://github.com/levonet"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "1.3.12",
+    "enb": "0.15.0",
+    "enb-bem-techs": "1.0.4",
+    "enb-autoprefixer": "0.2.3",
+    "enb-borschik": "1.5.0",
+    "borschik-tech-cleancss": "2.0.1",
+    "enb-stylus": "1.2.2",
+    "enb-bemxjst": "1.3.4"
+  },
+  "scripts": {
+    "postinstall": "npm run deps",
+    "deps": "bower install --non-interactive",
+    "start": "enb server"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
