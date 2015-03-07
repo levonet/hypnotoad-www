@@ -7,6 +7,7 @@
     scripts: [
 
     ],
+    mods: { theme: 'hypnotoad' },
     content: [
         { block: 'hypnotoad' }
     ]
