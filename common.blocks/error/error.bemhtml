@@ -1,0 +1,20 @@
+block('error')(
+    tag()(false),
+    content()(function() {
+        var ctx = this.ctx;
+        return [
+            {
+                tag: 'center',
+                content: {
+                    tag: 'h1',
+                    content: ctx.title
+                }
+            }, {
+                tag: 'hr'
+            }, {
+                tag: 'center',
+                content: ctx.content
+            }
+        ];
+    })
+)
