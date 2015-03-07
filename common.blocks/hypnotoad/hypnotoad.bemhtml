@@ -1,0 +1,6 @@
+block('hypnotoad').content()({
+        block: 'image',
+        alt: 'Hypnotoad',
+        url: '../../common.blocks/hypnotoad/hypnotoad.gif'
+    }
+)

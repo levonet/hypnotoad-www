@@ -8,6 +8,6 @@
 
     ],
     content: [
-        'Hello, World!'
+        { block: 'hypnotoad' }
     ]
 });
